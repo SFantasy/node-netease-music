@@ -12,6 +12,9 @@
     "url": "git@github.com:SFantasy/node-netease-music"
   },
   "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
   "license": "MIT",
   "dependencies": {
     "request": "^2.72.0"

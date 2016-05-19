@@ -6,6 +6,7 @@ NetEase Music API in Node.js
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
 [![David deps][david-image]][david-url]
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 [npm-image]: https://img.shields.io/npm/v/netease-music.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/netease-music
@@ -20,7 +21,7 @@ NetEase Music API in Node.js
 npm i netease-music -S
 ```
 
-## Example
+## Usage
 
 ```
 var music = require('netease-music')
@@ -33,6 +34,10 @@ music.getUserPlaylist({
   // Do things with data
 });
 ```
+
+## Example
+
+See [example](example/examples.js)
 
 ## API
 
