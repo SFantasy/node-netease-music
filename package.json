@@ -1,0 +1,19 @@
+{
+  "name": "netease-music",
+  "version": "0.0.1",
+  "description": "NetEase Music API in Node.js",
+  "keywords": [
+    "netease",
+    "music",
+    "netease-music"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SFantasy/node-netease-music"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
