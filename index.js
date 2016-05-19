@@ -16,11 +16,24 @@ exports.getUserPlaylist = function (params, callback) {
   })
 }
 
-exports.getPlaylistDetail = function (params, callback) {
+exports.getPlaylistDetail = function (id, callback) {
   request({
     uri: api.getPlaylistDetail,
     qs: {
-      id: params.id
+      id: id
+    }
+  }, function (err, res, body) {
+    if (err) callback(err, null)
+    callback(null, body)
+  })
+}
+
+exports.getSongDetail = function (id, callback) {
+  request({
+    uri: api.getSongDetail,
+    qs: {
+      id: id,
+      ids: JSON.stringify([id])
     }
   }, function (err, res, body) {
     if (err) callback(err, null)
