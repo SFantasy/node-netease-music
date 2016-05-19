@@ -1,6 +1,6 @@
 {
   "name": "netease-music",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "NetEase Music API in Node.js",
   "keywords": [
     "netease",

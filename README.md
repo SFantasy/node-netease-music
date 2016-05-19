@@ -45,6 +45,8 @@ See [example](example/examples.js)
 
 - `getPlaylistDetail`
 
+- `getSongDetail`
+
 ## License
 
 The MIT License

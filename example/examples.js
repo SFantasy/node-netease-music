@@ -10,8 +10,11 @@ music.getUserPlaylist({
 })
 
 // 获取歌单详情
-music.getPlaylistDetail({
-  id: 33353324
-}, function (err, data) {
+music.getPlaylistDetail(33353324, function (err, data) {
+  if (!err) console.log(data)
+})
+
+// 获取歌曲详情
+music.getSongDetail(5023440, function (err, data) {
   if (!err) console.log(data)
 })
